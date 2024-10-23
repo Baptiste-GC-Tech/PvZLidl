@@ -1,0 +1,73 @@
+﻿  Entity.cpp
+C:\Users\bboismenu\Documents\PvZLidl\gameActors\Entity.cpp(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'Entity<TState>.hpp' : No such file or directory
+  Behaviour.cpp
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,13): error C3856: 'Entity' : le symbole n'est pas une classe modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,14): error C2079: 'TState' utilise une class de 'Entity' non défini
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,20): error C2143: erreur de syntaxe : absence de ';' avant '>'
+C:\Users\bboismenu\Documents\PvZLidl\gameActors\Entity.hpp(15,1): error C2989: 'Entity' : le modèle de classe a déjà été déclarée comme modèle sans classe
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,13): message : voir la déclaration de 'Entity'
+C:\Users\bboismenu\Documents\PvZLidl\gameActors\Entity.hpp(13,1): error C3857: 'Entity' : plusieurs listes de paramètres modèle ne sont pas autorisées
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,13): error C3856: 'Entity' : le symbole n'est pas une classe modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,14): error C2079: 'TState' utilise une class de 'Entity' non défini
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,14): error C2086: 'int TState' : redéfinition
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,14): message : voir la déclaration de 'TState'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,20): error C2143: erreur de syntaxe : absence de ';' avant '>'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,46): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,51): error C2238: jetons inattendus avant ';'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,13): error C3856: 'Entity' : le symbole n'est pas une classe modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,14): error C2079: 'TState' utilise une class de 'Entity' non défini
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,14): error C2086: 'int TState' : redéfinition
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.hpp(9,14): message : voir la déclaration de 'TState'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,20): error C2143: erreur de syntaxe : absence de ';' avant '>'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(23,2): message : voir la référence à l'instanciation classe modèle 'Transition<TState>' en cours de compilation
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,1): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,1): error C2238: jetons inattendus avant ';'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(39,47): error C2988: impossible de reconnaître la définition/déclaration de modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(39,47): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(39,47): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(39,47): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(39): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(40,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(40,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(48,41): error C2988: impossible de reconnaître la définition/déclaration de modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(48,41): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(48,41): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(48,41): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(48): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(49,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(49,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(62,46): error C2988: impossible de reconnaître la définition/déclaration de modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(62,46): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(62,46): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(62,46): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(62): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(63,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Behaviour.cpp(63,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+  Transition.cpp
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,13): error C3856: 'Entity' : le symbole n'est pas une classe modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,14): error C2079: 'TState' utilise une class de 'Entity' non défini
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,20): error C2143: erreur de syntaxe : absence de ';' avant '>'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,29): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,46): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(8,51): error C2238: jetons inattendus avant ';'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,13): error C3856: 'Entity' : le symbole n'est pas une classe modèle
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,14): error C2079: 'TState' utilise une class de 'Entity' non défini
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,14): error C2086: 'int TState' : redéfinition
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Condition.hpp(3,14): message : voir la déclaration de 'TState'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(8,20): error C2143: erreur de syntaxe : absence de ';' avant '>'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2143: erreur de syntaxe : absence de ')' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(23,2): message : voir la référence à l'instanciation classe modèle 'Transition<TState>' en cours de compilation
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,33): error C2059: erreur de syntaxe : '<'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,1): error C2059: erreur de syntaxe : ')'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.hpp(20,1): error C2238: jetons inattendus avant ';'
+C:\Users\bboismenu\Documents\PvZLidl\stateMachine\Transition.cpp(2,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'gameActors/Entity<TState>.hpp' : No such file or directory
+  Génération de code en cours...

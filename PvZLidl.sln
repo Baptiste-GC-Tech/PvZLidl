@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PvZLidl", "PvZLidl.vcxproj", "{42D5999F-470A-414B-8F95-EE9582E181EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		SFMLDebug|x64 = SFMLDebug|x64
+		SFMLDebug|x86 = SFMLDebug|x86
+		SFMLRelease|x64 = SFMLRelease|x64
+		SFMLRelease|x86 = SFMLRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.Debug|x64.ActiveCfg = SFMLDebug|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.Debug|x86.ActiveCfg = SFMLDebug|Win32
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.Release|x64.ActiveCfg = SFMLRelease|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.Release|x86.ActiveCfg = SFMLRelease|Win32
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLDebug|x64.ActiveCfg = SFMLDebug|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLDebug|x64.Build.0 = SFMLDebug|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLDebug|x86.ActiveCfg = SFMLDebug|Win32
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLDebug|x86.Build.0 = SFMLDebug|Win32
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLRelease|x64.ActiveCfg = SFMLRelease|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLRelease|x64.Build.0 = SFMLRelease|x64
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLRelease|x86.ActiveCfg = SFMLRelease|Win32
+		{42D5999F-470A-414B-8F95-EE9582E181EA}.SFMLRelease|x86.Build.0 = SFMLRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6782FA08-9ECC-4A87-A1D8-EE1205DF679A}
+	EndGlobalSection
+EndGlobal
